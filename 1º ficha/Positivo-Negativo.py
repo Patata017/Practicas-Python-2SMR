@@ -1,0 +1,6 @@
+print("Programa para decidir si un número es positivo o negativo")
+print("Escribe el número")
+n=int(input())
+if n<0: print("El número es negativo")
+elif n>0: print("El número es positivo")
+else: print("El número es 0")
